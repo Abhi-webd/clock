@@ -1,0 +1,72 @@
+body{
+  background-color: #112031;
+}
+
+.struct{
+  height: 34rem;
+  width: 34rem;
+  border: 9px solid #11324D;
+  box-shadow: -4px -4px 10px rgba(67,67,67,0.5),
+                inset 4px 4px 10px rgba(0,0,0,0.5),
+                inset -4px -4px 10px rgba(67,67,67,0.5),
+                4px 4px 10px rgba(0,0,0,0.3);
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+}
+
+.struct2{
+  height: 34rem;
+  width: 34rem;
+
+}
+.hour-hand{
+  width: 30%;
+  right: 50%;
+  height: 6px;
+  background: #64C9CF;
+  position: absolute;
+  top: 50%;
+  border-radius: 6px;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+.second-hand{
+  width: 58%;
+  right: 38.2%;
+  height: 3px;
+  background: red;
+  position: absolute;
+  top: 50.2%;
+  border-radius: 6px;
+  transform-origin: 80%;
+  transform: rotate(90deg);
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.minute-hand{
+  width: 40%;
+  right: 50%;
+  height: 4px;
+  background: #61afff;
+  position: absolute;
+  top: 50%;
+  border-radius: 6px;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.dot{
+  height: 25px;
+  width: 25px;
+  background-color: #D4ECDD;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  left: 47.8%;
+ bottom: 52.7%;
+}
+
